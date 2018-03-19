@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17F78AE4DD350AE1A38B30B8F12D323D /* VisonGitPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4FC81E25DCB719BDFB8FB7CC85FCDE /* VisonGitPod-dummy.m */; };
+		2D8D8F48E1362972F3F429BDAD39A858 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6229537EAB3AB51238F9C5508A3F23A2 /* Pods-VisonGitPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68326858BBA34FBD089571A7B3F8476F /* Pods-VisonGitPod_Tests-dummy.m */; };
+		8B49F232205FB10C00E469BF /* BaseMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B49F230205FB10C00E469BF /* BaseMethod.m */; };
+		8B49F233205FB10C00E469BF /* BaseMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B49F231205FB10C00E469BF /* BaseMethod.h */; };
+		995A8BFBCF7095AD92610AF83B44ABDF /* Pods-VisonGitPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DD9BC969414073A947247A9CF036F8 /* Pods-VisonGitPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A656C8DE3602EEC062702A359F22DF55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B8EBD8B4351FB5F1AACED450DFB179E3 /* VisonGitPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D69D969B4BB12B9B304E66D0E988A8A1 /* VisonGitPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C321C740C512A2543E42C69F930B1D13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CABEE4F46653CB975AEDBC80F77BFE9F /* Pods-VisonGitPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E02DF9594E0CD1910687D7FB2A9AB98C /* Pods-VisonGitPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D247DA12FFC98F83386B18357EC774B1 /* Pods-VisonGitPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C732374FBDD48CCFBFC9B1CA521BF44C /* Pods-VisonGitPod_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		837057AC9E8ED92881BEC907FE29B2F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 440051E88D6446F3D2F1E1922D96252B;
+			remoteInfo = VisonGitPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0521616A62D846F82E8BEC66A504D57F /* Pods-VisonGitPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VisonGitPod_Tests.modulemap"; sourceTree = "<group>"; };
+		18956F18BD8A9C9A04DAE307B9CCEAE9 /* VisonGitPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VisonGitPod.xcconfig; sourceTree = "<group>"; };
+		1CADE7A43B7492ADDC63A4B99E8A5099 /* Pods-VisonGitPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VisonGitPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2AB1B65B867C0F1981072847CBC6E596 /* Pods-VisonGitPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisonGitPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3033E6C68C196F2EDBDDA04BEF86A19E /* Pods-VisonGitPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisonGitPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		36819DDE3A86AF1A31890FD1AE1D19B5 /* Pods-VisonGitPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisonGitPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		39AC9C0DCECD3F35ED5F6E228A20339B /* VisonGitPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VisonGitPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB470179855AC94F552C83F9B7BB494 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4D76E6AA5FA99EB381A910F1EFDCA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B8E3477D606FE8BB893EE8919F8680E /* Pods-VisonGitPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisonGitPod_Tests-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68326858BBA34FBD089571A7B3F8476F /* Pods-VisonGitPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VisonGitPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		6DD05DFF5E8C4FB68EC0C5D0BAB0D303 /* Pods-VisonGitPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisonGitPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		896413244523B063F39D99F8330D7907 /* Pods-VisonGitPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisonGitPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B49F230205FB10C00E469BF /* BaseMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseMethod.m; path = VisonGitPod/Classes/BaseMethod.m; sourceTree = "<group>"; };
+		8B49F231205FB10C00E469BF /* BaseMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseMethod.h; path = VisonGitPod/Classes/BaseMethod.h; sourceTree = "<group>"; };
+		8F96A945DCBD002A0BD2AC103181E7CF /* Pods-VisonGitPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VisonGitPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95C615641910EEC7BC27749547A93271 /* VisonGitPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = VisonGitPod.modulemap; sourceTree = "<group>"; };
+		968CC8DBE06EE5AEF894EE090DBE6831 /* Pods-VisonGitPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VisonGitPod_Example.modulemap"; sourceTree = "<group>"; };
+		BF32C9CCA99A356C31CF8DC8E7C5AF76 /* Pods-VisonGitPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisonGitPod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C493E1B0D26BE534D5595D192E3352E7 /* Pods-VisonGitPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VisonGitPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C732374FBDD48CCFBFC9B1CA521BF44C /* Pods-VisonGitPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VisonGitPod_Example-dummy.m"; sourceTree = "<group>"; };
+		C88762A84D9FAB612ED9FA0F5496519C /* Pods_VisonGitPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisonGitPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D11B218707305B4619F37FC0AC7B5A2A /* VisonGitPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VisonGitPod-prefix.pch"; sourceTree = "<group>"; };
+		D4B0C8089A17CE8BD5123FD2F6A420BC /* Pods-VisonGitPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisonGitPod_Example-resources.sh"; sourceTree = "<group>"; };
+		D69D969B4BB12B9B304E66D0E988A8A1 /* VisonGitPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VisonGitPod-umbrella.h"; sourceTree = "<group>"; };
+		D7C3544BA7576A5621430AE7902BAA7E /* Pods-VisonGitPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VisonGitPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC2E8C783AC8C866432EF8F2764DCB86 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E02DF9594E0CD1910687D7FB2A9AB98C /* Pods-VisonGitPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VisonGitPod_Example-umbrella.h"; sourceTree = "<group>"; };
+		E7F1BE220949E643526E93FC7841A3DD /* Pods_VisonGitPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisonGitPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4FC81E25DCB719BDFB8FB7CC85FCDE /* VisonGitPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VisonGitPod-dummy.m"; sourceTree = "<group>"; };
+		F4DD9BC969414073A947247A9CF036F8 /* Pods-VisonGitPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VisonGitPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55019A59378B933D67063E953DB261D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C321C740C512A2543E42C69F930B1D13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B2CBC56AA2744B3C26A88C5CB47B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8D8F48E1362972F3F429BDAD39A858 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A819CE7B605725EA33571B246585F4F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A656C8DE3602EEC062702A359F22DF55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B0D9B8CC65E4F8E00497F4A74005881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7F1BE220949E643526E93FC7841A3DD /* Pods_VisonGitPod_Example.framework */,
+				C88762A84D9FAB612ED9FA0F5496519C /* Pods_VisonGitPod_Tests.framework */,
+				39AC9C0DCECD3F35ED5F6E228A20339B /* VisonGitPod.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C76928AA1D70AFFF5D1122F8EF18A70 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B4D76E6AA5FA99EB381A910F1EFDCA0 /* Info.plist */,
+				95C615641910EEC7BC27749547A93271 /* VisonGitPod.modulemap */,
+				18956F18BD8A9C9A04DAE307B9CCEAE9 /* VisonGitPod.xcconfig */,
+				EA4FC81E25DCB719BDFB8FB7CC85FCDE /* VisonGitPod-dummy.m */,
+				D11B218707305B4619F37FC0AC7B5A2A /* VisonGitPod-prefix.pch */,
+				D69D969B4BB12B9B304E66D0E988A8A1 /* VisonGitPod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VisonGitPod";
+			sourceTree = "<group>";
+		};
+		3FA8ADC8F5919F6FB92E0177D1114E2E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57003A2FDDA904A0A8D58308329A2C7C /* VisonGitPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		44EA46AB8E78DF283B7A2E6B8BBACDE1 /* Pods-VisonGitPod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3CB470179855AC94F552C83F9B7BB494 /* Info.plist */,
+				968CC8DBE06EE5AEF894EE090DBE6831 /* Pods-VisonGitPod_Example.modulemap */,
+				D7C3544BA7576A5621430AE7902BAA7E /* Pods-VisonGitPod_Example-acknowledgements.markdown */,
+				1CADE7A43B7492ADDC63A4B99E8A5099 /* Pods-VisonGitPod_Example-acknowledgements.plist */,
+				C732374FBDD48CCFBFC9B1CA521BF44C /* Pods-VisonGitPod_Example-dummy.m */,
+				BF32C9CCA99A356C31CF8DC8E7C5AF76 /* Pods-VisonGitPod_Example-frameworks.sh */,
+				D4B0C8089A17CE8BD5123FD2F6A420BC /* Pods-VisonGitPod_Example-resources.sh */,
+				E02DF9594E0CD1910687D7FB2A9AB98C /* Pods-VisonGitPod_Example-umbrella.h */,
+				36819DDE3A86AF1A31890FD1AE1D19B5 /* Pods-VisonGitPod_Example.debug.xcconfig */,
+				2AB1B65B867C0F1981072847CBC6E596 /* Pods-VisonGitPod_Example.release.xcconfig */,
+			);
+			name = "Pods-VisonGitPod_Example";
+			path = "Target Support Files/Pods-VisonGitPod_Example";
+			sourceTree = "<group>";
+		};
+		57003A2FDDA904A0A8D58308329A2C7C /* VisonGitPod */ = {
+			isa = PBXGroup;
+			children = (
+				8B49F231205FB10C00E469BF /* BaseMethod.h */,
+				8B49F230205FB10C00E469BF /* BaseMethod.m */,
+				3C76928AA1D70AFFF5D1122F8EF18A70 /* Support Files */,
+			);
+			name = VisonGitPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3FA8ADC8F5919F6FB92E0177D1114E2E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3B0D9B8CC65E4F8E00497F4A74005881 /* Products */,
+				964B027BDF0F13884742BD86A0C6AA02 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		964B027BDF0F13884742BD86A0C6AA02 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44EA46AB8E78DF283B7A2E6B8BBACDE1 /* Pods-VisonGitPod_Example */,
+				FE64B16B1FC288D086D69E3759351CC3 /* Pods-VisonGitPod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FE64B16B1FC288D086D69E3759351CC3 /* Pods-VisonGitPod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DC2E8C783AC8C866432EF8F2764DCB86 /* Info.plist */,
+				0521616A62D846F82E8BEC66A504D57F /* Pods-VisonGitPod_Tests.modulemap */,
+				C493E1B0D26BE534D5595D192E3352E7 /* Pods-VisonGitPod_Tests-acknowledgements.markdown */,
+				8F96A945DCBD002A0BD2AC103181E7CF /* Pods-VisonGitPod_Tests-acknowledgements.plist */,
+				68326858BBA34FBD089571A7B3F8476F /* Pods-VisonGitPod_Tests-dummy.m */,
+				3033E6C68C196F2EDBDDA04BEF86A19E /* Pods-VisonGitPod_Tests-frameworks.sh */,
+				5B8E3477D606FE8BB893EE8919F8680E /* Pods-VisonGitPod_Tests-resources.sh */,
+				F4DD9BC969414073A947247A9CF036F8 /* Pods-VisonGitPod_Tests-umbrella.h */,
+				896413244523B063F39D99F8330D7907 /* Pods-VisonGitPod_Tests.debug.xcconfig */,
+				6DD05DFF5E8C4FB68EC0C5D0BAB0D303 /* Pods-VisonGitPod_Tests.release.xcconfig */,
+			);
+			name = "Pods-VisonGitPod_Tests";
+			path = "Target Support Files/Pods-VisonGitPod_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0CF1C2759FF50A3B8F730E6468B0C47A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				995A8BFBCF7095AD92610AF83B44ABDF /* Pods-VisonGitPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917643DCC375DBCE2D609676AABC8529 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8EBD8B4351FB5F1AACED450DFB179E3 /* VisonGitPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98186A007CD41A0AC5F05B0003D4741 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B49F233205FB10C00E469BF /* BaseMethod.h in Headers */,
+				CABEE4F46653CB975AEDBC80F77BFE9F /* Pods-VisonGitPod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		440051E88D6446F3D2F1E1922D96252B /* VisonGitPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B768C4DD9023E0FBC3BAECB08F4E4FA /* Build configuration list for PBXNativeTarget "VisonGitPod" */;
+			buildPhases = (
+				137CB53F1FA5DDE52C3B2E8A1E7B8081 /* Sources */,
+				A819CE7B605725EA33571B246585F4F2 /* Frameworks */,
+				917643DCC375DBCE2D609676AABC8529 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisonGitPod;
+			productName = VisonGitPod;
+			productReference = 39AC9C0DCECD3F35ED5F6E228A20339B /* VisonGitPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		985E0CE561F78D5410EDADAE053DDA83 /* Pods-VisonGitPod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46707F5036E6404DBEFF3E62176398D3 /* Build configuration list for PBXNativeTarget "Pods-VisonGitPod_Example" */;
+			buildPhases = (
+				CBEDD011455ABD66EC024F27B41A08AC /* Sources */,
+				57B2CBC56AA2744B3C26A88C5CB47B94 /* Frameworks */,
+				A98186A007CD41A0AC5F05B0003D4741 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36A6D71A9609F9B0ADFE164BFE4C137B /* PBXTargetDependency */,
+			);
+			name = "Pods-VisonGitPod_Example";
+			productName = "Pods-VisonGitPod_Example";
+			productReference = E7F1BE220949E643526E93FC7841A3DD /* Pods_VisonGitPod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7DEDFAC2E28CC453B901C2AF5716319 /* Pods-VisonGitPod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2F8E09B3D8EB5FEB894B6E8A7248A1 /* Build configuration list for PBXNativeTarget "Pods-VisonGitPod_Tests" */;
+			buildPhases = (
+				D94DD98ED13121D0A8C5F8DC14A03E37 /* Sources */,
+				55019A59378B933D67063E953DB261D1 /* Frameworks */,
+				0CF1C2759FF50A3B8F730E6468B0C47A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VisonGitPod_Tests";
+			productName = "Pods-VisonGitPod_Tests";
+			productReference = C88762A84D9FAB612ED9FA0F5496519C /* Pods_VisonGitPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3B0D9B8CC65E4F8E00497F4A74005881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				985E0CE561F78D5410EDADAE053DDA83 /* Pods-VisonGitPod_Example */,
+				A7DEDFAC2E28CC453B901C2AF5716319 /* Pods-VisonGitPod_Tests */,
+				440051E88D6446F3D2F1E1922D96252B /* VisonGitPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		137CB53F1FA5DDE52C3B2E8A1E7B8081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F78AE4DD350AE1A38B30B8F12D323D /* VisonGitPod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEDD011455ABD66EC024F27B41A08AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D247DA12FFC98F83386B18357EC774B1 /* Pods-VisonGitPod_Example-dummy.m in Sources */,
+				8B49F232205FB10C00E469BF /* BaseMethod.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D94DD98ED13121D0A8C5F8DC14A03E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6229537EAB3AB51238F9C5508A3F23A2 /* Pods-VisonGitPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36A6D71A9609F9B0ADFE164BFE4C137B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VisonGitPod;
+			target = 440051E88D6446F3D2F1E1922D96252B /* VisonGitPod */;
+			targetProxy = 837057AC9E8ED92881BEC907FE29B2F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C7EF12B0EB789C36899250383C4B8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18956F18BD8A9C9A04DAE307B9CCEAE9 /* VisonGitPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VisonGitPod/VisonGitPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VisonGitPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VisonGitPod/VisonGitPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VisonGitPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D2A71DCDB1AF0020FB43F2EB46940FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 896413244523B063F39D99F8330D7907 /* Pods-VisonGitPod_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VisonGitPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VisonGitPod_Tests/Pods-VisonGitPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VisonGitPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C392FEB858C7D136188C2FEB218B9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DD05DFF5E8C4FB68EC0C5D0BAB0D303 /* Pods-VisonGitPod_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VisonGitPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VisonGitPod_Tests/Pods-VisonGitPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VisonGitPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87C791B5B730631E4E596C6C82F3F5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB1B65B867C0F1981072847CBC6E596 /* Pods-VisonGitPod_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VisonGitPod_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VisonGitPod_Example/Pods-VisonGitPod_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VisonGitPod_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA933840BC64CC29598471368D073C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36819DDE3A86AF1A31890FD1AE1D19B5 /* Pods-VisonGitPod_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VisonGitPod_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VisonGitPod_Example/Pods-VisonGitPod_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VisonGitPod_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BBEC65CA3C839B684897E78C962B991A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18956F18BD8A9C9A04DAE307B9CCEAE9 /* VisonGitPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VisonGitPod/VisonGitPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VisonGitPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VisonGitPod/VisonGitPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VisonGitPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EED546DBB23FC32035C9BDC4E22B30BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED546DBB23FC32035C9BDC4E22B30BD /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46707F5036E6404DBEFF3E62176398D3 /* Build configuration list for PBXNativeTarget "Pods-VisonGitPod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA933840BC64CC29598471368D073C86 /* Debug */,
+				87C791B5B730631E4E596C6C82F3F5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B768C4DD9023E0FBC3BAECB08F4E4FA /* Build configuration list for PBXNativeTarget "VisonGitPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEC65CA3C839B684897E78C962B991A /* Debug */,
+				3C7EF12B0EB789C36899250383C4B8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2F8E09B3D8EB5FEB894B6E8A7248A1 /* Build configuration list for PBXNativeTarget "Pods-VisonGitPod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2A71DCDB1AF0020FB43F2EB46940FF /* Debug */,
+				5C392FEB858C7D136188C2FEB218B9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

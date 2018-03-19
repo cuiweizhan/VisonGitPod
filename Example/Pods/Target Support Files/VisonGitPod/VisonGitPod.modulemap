@@ -1,0 +1,6 @@
+framework module VisonGitPod {
+  umbrella header "VisonGitPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
