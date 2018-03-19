@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VisonGitPod_Example' do
+  pod 'VisonGitPod', :path => '../'
+
+  target 'VisonGitPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
